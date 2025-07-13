@@ -1,5 +1,11 @@
-title: Nicolette Mtisi
-logo: /portfolio/profile.png
-description: Data-Driven Solutions, Tailored for Tomorrow. Passionate AI Engineer & Data Scientist.
-show_downloads: false
+```yaml
 theme: jekyll-theme-cayman
+title: Nicolette Mtisi
+description: Data-Driven Solutions, Tailored for Tomorrow. Passionate AI Engineer & Data Scientist.
+plugins:
+  - jekyll-remote-theme
+include:
+  - assets/css/custom.css
+  - portfolio/css
+  - portfolio/images
+```
